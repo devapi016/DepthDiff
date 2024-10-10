@@ -66,6 +66,7 @@ The first intuitive idea would be to noise the noised depth image i.e $x_{noised
 * Generally, we train diffusion models with max number of timesteps to 1000. This can be improved.
 
 Max time steps issue can be solved if $x_{noised}$ is part of scheduler's output. But if considering forward process equation of DDPM,
+
 $$
 x_{t} = \sqrt{1-\beta_t} x_{t-1} + \sqrt{\beta_t} \epsilon  
 \\or\\
