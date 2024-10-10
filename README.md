@@ -1,5 +1,7 @@
 # DepthDiff: Agnostic Noise Removal in Depth Images Using Diffusion
 
+This repo acts as the report for this project 
+
 ## Table of contents
 
 * [Motivation](#motivation)
