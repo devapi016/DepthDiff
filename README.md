@@ -69,7 +69,9 @@ Max time steps issue can be solved if $x_{noised}$ is part of scheduler's output
 
 $$
 x_{t} = \sqrt{1-\beta_t} x_{t-1} + \sqrt{\beta_t} \epsilon  
-\\or\\
+$$
+or
+$$
 x_{t} = \sqrt{\bar{\alpha_t}} x_0 + \sqrt{1-\bar{\alpha_t}} \epsilon
 $$
 
